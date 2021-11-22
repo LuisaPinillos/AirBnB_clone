@@ -18,3 +18,7 @@ div.firstbutton button {
     margin: 11px;
     margin-right: 30px;
 }
+
+div.firstbutton:hover button {
+    opacity: 90%;
+}
