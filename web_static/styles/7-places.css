@@ -1,0 +1,42 @@
+section.places h1 {
+    text-align: left;
+    font-size: 30px;
+    padding-left: 18px;
+    padding-top: 17.5px;
+    margin-bottom: 0px;
+}
+section.places article div.top1 {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+    float: left;
+    margin-left: 46.5px;
+}
+
+section.places article div.top2 {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+    float: left;
+}
+
+
+section.places article div.down {
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    width: 390px;
+    margin-left: 282px;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+}
+
+section.places article h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
