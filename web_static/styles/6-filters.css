@@ -65,6 +65,7 @@ section.filters div.popover {
     border: 1px #DDDDDD solid;
     border-radius: 4px;
     display: none;
+    position: relative;
 }
 
 section.filters div.locations div.popover {
