@@ -1,0 +1,133 @@
+section.places h1 {
+    text-align: left;
+    font-size: 30px;
+    padding-left: 18px;
+    padding-top: 17.5px;
+    margin-bottom: 0px;
+}
+
+div.top1, div.top2, div.down {
+    width: 390px;
+    margin: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+    float: left;
+}
+
+div.top1 {
+    margin-left: 46.5px;
+    height: 386px; /*height equal to container top2*/
+}
+
+div.down {
+    margin-left: 282px; /*Position in the meddle*/
+}
+
+section.places article h2 {
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+div.top1 div.price_by_night {
+    color: #FF5A5F;
+    border: #FF5A5F 4px solid;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    float: right;
+    margin-top: -80px; /*Position near the border*/
+} 
+
+div.top2 div.price_by_night {
+    color: #FF5A5F;
+    border: #FF5A5F 4px solid;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    float: right;
+    margin-top: -80px; /*Position near the border*/
+}
+
+div.down div.price_by_night {
+    color: #FF5A5F;
+    border: #FF5A5F 4px solid;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    float: right;
+    margin-top: -80px; /*Position near the border*/
+}
+
+ /*prices*/
+
+section.places article .price_by_night p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 28px;
+}
+
+section.places article .information {
+    height: 80px;
+    border-top: #DDDDDD 1px solid;
+    border-bottom: #DDDDDD 1px solid;
+    margin: auto;
+    width: 100%;
+}
+
+ /*Icons of each container*/
+
+.max_guest {
+    background-image: url('../images/icon_group.png');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 70px;
+    float: left;
+    background-position: center;
+}
+
+.number_rooms {
+    background-image: url('../images/icon_bed.png');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 70px;
+    float: left;
+    background-position: center;
+}
+
+.number_bathrooms {
+    background-image: url('../images/icon_bath.png');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 70px;
+    float: left;
+    background-position: center;
+}
+
+ /*Text of each icon*/
+
+section.places article div.information p {
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+section.places article div.user {
+    font-size: 15px;
+}
+
+section.places article div.description p {
+    font-size: 15px;
+}
+ /*location in the center of the icons*/
+ 
+.continfo {
+    display: table;
+    margin: auto;
+} 
