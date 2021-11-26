@@ -6,7 +6,7 @@ section.places h1 {
     margin-bottom: 0px;
 }
 
-section.places article div.top1, div.top2, div.down {
+div.top1, div.top2, div.down {
     width: 390px;
     padding: 20px;
     margin: 20px;
@@ -15,11 +15,12 @@ section.places article div.top1, div.top2, div.down {
     float: left;
 }
 
-section.places article div.top1 {
+div.top1 {
     margin-left: 46.5px;
 }
 
-section.places article div.down {
+/*Position in half in container*/
+div.down {
     margin-left: 282px;
 }
 
