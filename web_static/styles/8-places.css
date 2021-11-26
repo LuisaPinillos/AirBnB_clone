@@ -125,8 +125,9 @@ section.places article div.user {
 section.places article div.description p {
     font-size: 15px;
 }
+
  /*location in the center of the icons*/
- 
+
 .continfo {
     display: table;
     margin: auto;
