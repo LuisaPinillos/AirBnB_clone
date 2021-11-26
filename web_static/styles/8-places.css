@@ -24,6 +24,7 @@ div.top1 {
 
 div.down {
     margin-left: 282px; /*Position in the meddle*/
+    height: 386px; /*height equal to container top2*/
 }
 
 section.places article h2 {
