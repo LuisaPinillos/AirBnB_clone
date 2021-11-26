@@ -1,0 +1,247 @@
+section.places h1 {
+    text-align: left;
+    font-size: 30px;
+    padding-left: 18px;
+    padding-top: 17.5px;
+    margin-bottom: 0px;
+}
+
+div.top1, div.top2, div.down {
+    width: 390px;
+    margin: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+    float: left;
+}
+
+div.top1 {
+    margin-left: 46.5px;
+}
+
+div.down {
+    margin-left: 282px; /*Position in the meddle*/
+}
+
+section.places article h2 {
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+div.top1 div.price_by_night {
+    color: #FF5A5F;
+    border: #FF5A5F 4px solid;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    float: right;
+    margin-top: -80px; /*Position near the border*/
+} 
+
+div.top2 div.price_by_night {
+    color: #FF5A5F;
+    border: #FF5A5F 4px solid;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    float: right;
+    margin-top: -80px; /*Position near the border*/
+}
+
+div.down div.price_by_night {
+    color: #FF5A5F;
+    border: #FF5A5F 4px solid;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    float: right;
+    margin-top: -80px; /*Position near the border*/
+}
+
+ /*prices*/
+
+section.places article .price_by_night p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 28px;
+}
+
+section.places article .information {
+    height: 80px;
+    border-top: #DDDDDD 1px solid;
+    border-bottom: #DDDDDD 1px solid;
+    margin: auto;
+    width: 100%;
+}
+
+ /*Icons of each container*/
+
+.max_guest {
+    background-image: url('../images/icon_group.png');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 70px;
+    float: left;
+    background-position: center;
+}
+
+.number_rooms {
+    background-image: url('../images/icon_bed.png');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 70px;
+    float: left;
+    background-position: center;
+}
+
+.number_bathrooms {
+    background-image: url('../images/icon_bath.png');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 70px;
+    float: left;
+    background-position: center;
+}
+
+ /*Text of each icon*/
+
+section.places article div.information p {
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+section.places article div.user {
+    font-size: 15px;
+}
+
+section.places article div.description p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+ /*location in the center of the icons*/
+
+.continfo {
+    display: table;
+    margin: auto;
+}
+
+/* DIV AMENITIES-*/
+
+section.places article div.amenities {
+    margin-top: 40px;
+    width: 100%;
+    padding-left: 0%;
+}
+
+section.places article div.amenities h2 {
+    font-size: 16px;
+    border-bottom: #DDDDDD 1px solid;
+    text-align: left;
+    padding-top: 0px;
+}
+
+div.amenities ul {
+    padding-left: 0%;
+    list-style: none;
+}
+
+/*Icons of the amenities container*/
+
+div.amenities li.tv {
+    background-image: url('../images/icon_tv.png');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 30px;
+    background-size: 30px;
+}
+
+div.amenities li.wifi {
+    background-image: url('../images/icon_wifi.png');
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    background-size: 30px;
+    position: relative;
+    bottom: 5px;
+}
+
+div.amenities li.Pets {
+    background-image: url('../images/icon_pets.png');
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    background-size: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+/*Icon with the characteristics of the container on the right*/
+
+div.top2 div.amenities li.Pets {
+    background-image: url('../images/icon_pets.png');
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    background-size: 30px;
+    position: relative;
+    bottom: 5px;
+}
+
+/*Texts of the container amenities icons*/
+
+div.amenities li p.tv {
+    padding-left: 40px;
+    padding-top: 7px;
+}
+
+div.amenities li p.wifi {
+    padding-left: 40px;
+    padding-top: 7px;
+}
+
+div.amenities li p.pets {
+    padding-left: 40px;
+    padding-top: 7px;
+    white-space: pre; /*text in a only line*/
+}
+
+/*DIV REVIEWS*/
+
+section.places article div.reviews {
+    margin-top: 40px;
+    width: 100%;
+    padding-left: 0%;
+}
+
+section.places article div.reviews h2 {
+    font-size: 16px;
+    border-bottom: #DDDDDD 1px solid;
+    text-align: left;
+    padding-top: 0px;
+}
+
+div.reviews ul {
+    padding-left: 0%;
+    list-style: none;
+}
+
+section.places article div.reviews li h3 {
+    font-size: 14px;
+}
+
+section.places article div.reviews li p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+div.top2 div.reviews li p {
+    margin-bottom: 50px;
+}
