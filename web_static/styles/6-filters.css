@@ -7,6 +7,7 @@ div.container section.filters {
 
 }
 
+/*Container button features*/
 div.firstbutton button {
     font-size: 18px;
     background-color: #FF5A5F;
@@ -23,6 +24,8 @@ div.firstbutton button {
 div.firstbutton:hover button {
     opacity: 90%;
 }
+
+/*---------------------------*/
 
 section.filters div.locations {
     width: 25%;
@@ -52,6 +55,7 @@ section.filters h4 {
     margin-top: 5px;
 }
 
+/*Features of the drop-down lists*/
 ul {
     list-style-type: none;
 }
@@ -59,7 +63,7 @@ ul {
 section.filters div.popover {
     padding-top: 5px;
     padding-right: 49px;
-    margin-left: -49px;
+    margin-left: -49px; /*The same width of Drop-down lists with the sections locations and amenities*/
     width: 100%;
     background-color: #FAFAFA;
     border: 1px #DDDDDD solid;
@@ -69,7 +73,7 @@ section.filters div.popover {
 }
 
 section.filters div.locations div.popover {
-    padding-bottom: 49px;
+    padding-bottom: 15px; /* Add space in the bottom to the drop-down*/
 }
 
 div.amenities:hover div.popover, div.locations:hover div.popover{
@@ -81,11 +85,13 @@ section.filters div.popover ul h2 {
     margin-bottom: 5px;
 }
 
+/*Align subtitles of the locations drop-down list */
 section.filters div.locations div.popover ul {
     padding-left: 25px;
     margin-top: 0;
 }
 
+/*Align the content of the amenities drop-down list*/
 section.filters div.amenities div.popover ul {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -93,7 +99,14 @@ section.filters div.amenities div.popover ul {
     margin-top: 0;
 }
 
+/*Adjust space between each li in the list*/
 section.filters div.popover ul li {
     padding-top: 2px;
     margin-top: 8px;
+}
+
+/*Fix body content not hidden under footer*/
+.places {
+    margin-bottom: 460px; 
+    padding-bottom: 460px;
 }
