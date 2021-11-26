@@ -103,6 +103,6 @@ section.filters div.popover ul li {
 
 /*Fix body content not hidden under footer*/
 .places {
-    margin-bottom: 460px; 
-    padding-bottom: 460px;
+    margin-bottom: 480px; 
+    padding-bottom: 480px;
 }
