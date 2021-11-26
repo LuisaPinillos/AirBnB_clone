@@ -27,19 +27,15 @@ div.firstbutton:hover button {
 
 /*---------------------------*/
 
-section.filters div.locations {
+div.locations, div.amenities {
     width: 25%;
     height: 100%;
-    border-right: #DDDDDD 1px solid;
     padding-left: 49px;
     float: left;
 }
 
-section.filters div.amenities {
-    height: 100%;
-    width: 25%;
-    padding-left: 49px;
-    float: left;
+div.locations {
+    border-right: #DDDDDD 1px solid;
 }
 
 section.filters h3 {
